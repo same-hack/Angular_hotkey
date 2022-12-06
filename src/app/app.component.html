@@ -1,0 +1,5 @@
+<button (click)="toggle()">クリック</button>
+<ng-container *ngIf="isToggle">
+  <p>ここが表示されているときのみショートカットキーが設定されるよ！</p>
+  <app-hotkey></app-hotkey>
+</ng-container>
